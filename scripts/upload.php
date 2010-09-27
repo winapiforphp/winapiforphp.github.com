@@ -193,7 +193,7 @@ class BitbucketUpload {
 }
 
 $upload = new BitbucketUpload;
-$upload->setUsername('auroraeosrose');
-$upload->setPassword('iwiwqsdd');
+$upload->setUsername('your name');
+$upload->setPassword('your password');
 $upload->setProject('garnetcms/garnetcms');
 $upload->uploadFile(__FILE__);
