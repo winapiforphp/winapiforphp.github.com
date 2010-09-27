@@ -1,0 +1,10 @@
+The scripts in this directory are helpers for the website.  If you're running
+a local copy changes are you won't need any of this.  Below are my own notes.
+
+pull.sh is a simple script to update the website once a day
+requires a checkout of the website
+
+hg clone https://[username]@bitbucket.org/winapiforphp/web winapiforphp.net
+chmod u+x pull.sh
+crontab -e
+0 0 * * * /home/htdocs/emsmith/winapiforphp.net/scripts/pull.sh
