@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Winapiforphp.github.io by winapiforphp</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Winapiforphp.github.io</h1>
+        <h2>Website for http://phpforwinapi.net</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/winapiforphp" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p>Wrapping the Windows API for PHP
+WAFP (Win API For PHP) is a group of extensions written for PHP that allow PHP users access to the large underlying C library that Windows developers typically enjoy. The extensions aim to provide a clean and intelligent OO and namespaced API for PHP users.</p>
+
+<p>Namespacing
+The API exposes 3 main namespaces, each of which groups part of the Windows API. One problem with the Windows API is its complete lack of modularity - you really don't want to know how messy it is. We could've just copied the structure (if you can call it that), function-for-function - it would have sure made it easier - but then it wouldn't be much fun to use. While we're here writing the code, we might as well improve upon it. And there sits one of our key objectives: clean and intelligent!</p>
+
+<p>Win\Gdi
+Under this namespace lies the code for the GDI API. You can write code to create bitmaps; draw shapes, paths, lines; create colors; grab device contexts to draw on; write text -- all the stuff you can do with GDI.</p>
+
+<p>Win\Gui
+A possibly more controversial library, the Win\Gui namespace opens up a bunch of code for creating windowed applications for your desktop. PHP is no longer a web-only language, although some people stuck in the past may say otherwise. PHP is equipped for long-running desktop applications using its garbage-collection cycles. So, from PHP, create all the widgets you could using C and the Windows API.</p>
+
+<p>Win\System
+This is the namespace that holds all the other cool stuff of the Win API. You have access to things like Unicode, Threading, Events, Timers, and much more!</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
